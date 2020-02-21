@@ -99,15 +99,12 @@ section {
     transition: linear .2s;
     display: inline-block;
     text-transform: uppercase;
-    border: 2px solid transparent;
     transition: linear .2s;
 }
 
 .banner-content a:hover {
     transition: linear .2s;
-    background: linear-gradient(50deg, #ff7a7a00, #FF217800, #EC4C7A00);
-    border: 2px solid #EC4C7A;
-    color: #EC4C7A;
+    border-radius: 30px;
 }
 
 .banner-img {
@@ -224,7 +221,6 @@ section {
     max-width: 800px;
     margin: 0 auto;
     text-align: center;
-    margin-bottom: 70px;
     line-height: 36px;
     padding: 70px;
     box-sizing: border-box;
@@ -255,6 +251,53 @@ section {
 
 /* ***************************** */
 /* client section end */
+/* ***************************** */
+
+/* ***************************** */
+/* subscribe section */
+/* ***************************** */
+.subscribe-sec {
+    text-align: center;
+}
+
+.subscribe-sec p {
+    font-size: 15px;
+    color: #707070;
+    margin-bottom: 50px;
+}
+
+.subscribe-sec form {
+    position: relative;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.subscribe-sec form input {
+    width: 100%;
+    background: #fff;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border: 1px solid #EC4D82;
+    clear: #707070;
+}
+
+.subscribe-sec form button {
+    background: linear-gradient(50deg, #ff7a7a, #FF2178, #EC4C7A);
+    padding: 11px 40px;
+    border-radius: 50px;
+    color: white;
+    font-weight: 500;
+    text-transform: uppercase;
+    border: none;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+}
+
+/* ***************************** */
+/* subscribe section end */
 /* ***************************** */
 
 /* footer */
