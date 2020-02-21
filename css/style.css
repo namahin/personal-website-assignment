@@ -184,6 +184,7 @@ section {
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
+    padding-bottom: 50px;
 }
 
 .client-sec h2 {
@@ -229,6 +230,7 @@ section {
     position: relative;
     top: 0;
     transition: linear .3s;
+    margin-bottom: 50px;
 }
 
 .contact:hover {
